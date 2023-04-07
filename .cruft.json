@@ -1,0 +1,23 @@
+{
+  "template": "https://github.com/scverse/cookiecutter-scverse",
+  "commit": "126c87fb63c1d037d294d9f3ea8fdc6cd6120c11",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "scinsitpy",
+      "package_name": "scinsitpy",
+      "project_description": "single-cell in-situ",
+      "author_full_name": "kevin lebrigand",
+      "author_email": "lebrigand@ipmc.cnrs.fr",
+      "github_user": "bfxomics",
+      "project_repo": "https://github.com/bfxomics/scinsitpy",
+      "license": "MIT License",
+      "_copy_without_render": [
+        ".github/workflows/**.yaml",
+        "docs/_templates/autosummary/**.rst"
+      ],
+      "_template": "https://github.com/scverse/cookiecutter-scverse"
+    }
+  },
+  "directory": null
+}
