@@ -19,7 +19,19 @@ urls.Documentation = "https://scinsitpy.readthedocs.io/"
 urls.Source = "https://github.com/bfxomics/scinsitpy"
 urls.Home-page = "https://github.com/bfxomics/scinsitpy"
 dependencies = [
+    "pandas>=1.1.1",  # pandas <1.1.1 has pandas/issues/35446
+    "numpy>=1.16.5",  # required by pandas 1.x
+    "scipy>1.4",
+    "h5py>=3",
+    "natsort",
+    "packaging>=20",
+    "scanpy",
     "anndata",
+    "pandas",
+    "opencv-python",
+    "tifffile",
+    "seaborn",
+    "matplotlib",
     # for debug logging (referenced from the issue template)
     "session-info"
 ]
