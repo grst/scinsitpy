@@ -1,7 +1,7 @@
 {
   "template": "https://github.com/scverse/cookiecutter-scverse",
-  "commit": "126c87fb63c1d037d294d9f3ea8fdc6cd6120c11",
-  "checkout": null,
+  "commit": "c21b82bf134f3a0f13db7482d4fb04ca1f562d59",
+  "checkout": "main",
   "context": {
     "cookiecutter": {
       "project_name": "scinsitpy",
